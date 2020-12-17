@@ -2,29 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Julia's Progamming Portfolio</title>
-
-<style>
-body { background-image: img src="myBackground.jpg";
-}
-</style>
-    
- 
+        <title> Julia's Progamming Portfolio </title> 
+        
+   <style>
+       th {width: 300px;}
+       body {
+            background-color: #effff1
+        }
+        
+   </style>
+        
     </head>
     <body>
     <img src="banner.jpg">
-        <h1>Welcome to Julia's Programming Portfolio</h1>
-    
+       
+  
     <table>
             <thead>
                 <tr>
-                  <th> <a href="index.html"> <img src="homebutton.png"> </a> </th>
-                    <th> <a href="javascripts.html"> <img src="javascriptbutton.png"> </a> </th>
-                    <th> <a href="apps.html"> <img src="appsbutton.png"> </a> </th>
-                    <th> <a href="aboutme.html"> <img src="aboutme.png"> </a> </th>
+                  <th> <a href="index.html"> <p id="homebutton"> <img src="homebutton.png"  width="150">  </a> </th>
+                    <th> <a href="javascripts.html"> <p id="javascript"><img src="javascriptbutton.png" width="150"> </a> </th>
+                    <th> <a href="apps.html"> <p id="apps"> <img src="appsbutton.png" width="150"> </a> </th>
+                    <th> <a href="aboutme.html"> <p id="aboutme"><img src="aboutme.png" width="150"> </a> </th>
                 </tr>
             </thead>
-
-
+        </table>
+     
+         
+        
+        <h1> Welcome to Julia's Programming Portfolio </h1>
+ <p> This website is put in place to showcase Julia's abilties in coding. The page will include her javascripts, apps, and things about Julia (which you can click through at the top of the page). In fact this website is an example of her coding skills. Feel free to stick around and look through her codes! </p>
+    
     </body>
 </html>
